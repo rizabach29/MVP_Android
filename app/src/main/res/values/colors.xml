@@ -28,9 +28,4 @@
     <color name="secondary">#293462</color>
     <color name="accent">#f7be16</color>
 
-    <!--My Color-->
-    <color name="a">#128C7E</color>
-    <color name="b">#075e54</color>
-    <color name="c">#41a290</color>
-
 </resources>

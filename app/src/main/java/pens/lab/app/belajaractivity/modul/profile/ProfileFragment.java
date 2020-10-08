@@ -5,12 +5,10 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 
 import androidx.annotation.Nullable;
-import pens.lab.app.belajaractivity.FirstActivity;
+
 import pens.lab.app.belajaractivity.R;
 import pens.lab.app.belajaractivity.base.BaseFragment;
 
@@ -59,10 +57,5 @@ public class ProfileFragment extends BaseFragment<ProfileActivity, ProfileContra
 
     @Override
     public void redirectToProfile() {
-            Intent intent = new Intent(activity, FirstActivity.class);
-            startActivity(intent);
-            activity.finish();
     }
-
-
 }

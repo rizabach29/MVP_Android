@@ -9,8 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/BadassTheme">
-        <activity android:name=".SecondActivity"></activity>
-        <activity android:name=".FirstActivity"></activity>
         <activity android:name=".modul.profile.ProfileActivity"></activity>
         <activity android:name=".modul.login.LoginActivity">
             <intent-filter>
